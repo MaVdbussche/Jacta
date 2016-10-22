@@ -1,0 +1,17 @@
+[
+  {
+    "modid": "jacta",
+    "name": "JACTA",
+    "version": "1.0",
+    "mcversion": "1.7.10",
+    "description": "A very small, simple mod that adds a modified version of the Vanilla crafting table to the game. And possibly an easter egg, too !",
+    "credits": "Thank you to... Oh wait, are you really reading that line ?",
+    "logoFile": "",
+    "url": "",
+    "updateUrl": "",
+    "authorList": [ "Pietlafrite" ],
+    "parent":"",
+    "screenshots": [],
+    "dependencies": []
+  }
+]
