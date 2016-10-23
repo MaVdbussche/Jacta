@@ -5,6 +5,7 @@ import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import pietlafrite.jacta.configuration.ConfigurationHandler;
 import pietlafrite.jacta.proxy.IProxy;
 import pietlafrite.jacta.reference.Reference;
 
@@ -20,6 +21,7 @@ public class jacta
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event)
     {
+        ConfigurationHandler.init(event.getSuggestedConfigurationFile());
     }
 
     @Mod.EventHandler
