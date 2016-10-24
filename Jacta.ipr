@@ -169,6 +169,14 @@
       </item>
     </group>
   </component>
+  <component name="ProjectDictionaryState">
+    <dictionary name="Michèle">
+      <words>
+        <w>améliorée</w>
+        <w>jacta</w>
+      </words>
+    </dictionary>
+  </component>
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Jacta.iml" filepath="$PROJECT_DIR$/Jacta.iml" />

@@ -1,11 +1,13 @@
 package pietlafrite.jacta;
 
+import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import pietlafrite.jacta.handler.ConfigurationHandler;
+import pietlafrite.jacta.init.ModItems;
 import pietlafrite.jacta.proxy.IProxy;
 import pietlafrite.jacta.reference.Reference;
 import pietlafrite.jacta.utility.LogHelper;
@@ -24,6 +26,8 @@ public class jacta
     public void preInit(FMLPreInitializationEvent event)
     {
         ConfigurationHandler.init(event.getSuggestedConfigurationFile());
+        FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
+        ModItems.init();
         LogHelper.info("PreInitialization complete !");
     }
 
