@@ -2,25 +2,27 @@ package pietlafrite.jacta.init;
 
 import cpw.mods.fml.common.registry.GameRegistry;
 import pietlafrite.jacta.item.*;
+import pietlafrite.jacta.reference.Reference;
 
+@GameRegistry.ObjectHolder(Reference.MOD_ID)
 public class ModItems
 {
-    public static final ItemJacta betterCraftingTableBase = new ItemBetterCraftingTableBase();
-    public static final ItemJacta betterCraftingTableUpgradeIron = new ItemBetterCraftingTableUpgradeIron();
-    public static final ItemJacta betterCraftingTableUpgradeGold = new ItemBetterCraftingTableUpgradeGold();
-    public static final ItemJacta betterCraftingTableUpgradeDiamond = new ItemBetterCraftingTableUpgradeDiamond();
-    public static final ItemJacta betterCraftingTableUpgradeObsidian = new ItemBetterCraftingTableUpgradeObsidian();
-    public static final ItemJacta betterCraftingTableUpgradeEndStone = new ItemBetterCraftingTableUpgradeEndStone();
-    public static final ItemJacta betterCraftingTableUpgradeEmerald = new ItemBetterCraftingTableUpgradeEmerald();
+    public static final ItemJacta itemBetterCraftingTableBase = new ItemBetterCraftingTableBase();
+    public static final ItemJacta itemBetterCraftingTableUpgradeIron = new ItemBetterCraftingTableUpgradeIron();
+    public static final ItemJacta itemBetterCraftingTableUpgradeGold = new ItemBetterCraftingTableUpgradeGold();
+    public static final ItemJacta itemBetterCraftingTableUpgradeDiamond = new ItemBetterCraftingTableUpgradeDiamond();
+    public static final ItemJacta itemBetterCraftingTableUpgradeObsidian = new ItemBetterCraftingTableUpgradeObsidian();
+    public static final ItemJacta itemBetterCraftingTableUpgradeEndStone = new ItemBetterCraftingTableUpgradeEndStone();
+    public static final ItemJacta itemBetterCraftingTableUpgradeEmerald = new ItemBetterCraftingTableUpgradeEmerald();
 
     public static void init()
     {
-        GameRegistry.registerItem(betterCraftingTableBase, "betterCraftingTableBase");
-        GameRegistry.registerItem(betterCraftingTableUpgradeIron, "betterCraftingTableUpgradeIron");
-        GameRegistry.registerItem(betterCraftingTableUpgradeGold, "betterCraftingTableUpgradeGold");
-        GameRegistry.registerItem(betterCraftingTableUpgradeDiamond, "betterCraftingTableUpgradeDiamond");
-        GameRegistry.registerItem(betterCraftingTableUpgradeObsidian, "betterCraftingTableUpgradeObsidian");
-        GameRegistry.registerItem(betterCraftingTableUpgradeEndStone, "betterCraftingTableUpgradeEndStone");
-        GameRegistry.registerItem(betterCraftingTableUpgradeEmerald, "betterCraftingTableUpgradeEmerald");
+        GameRegistry.registerItem(itemBetterCraftingTableBase, "itemBetterCraftingTableBase");
+        GameRegistry.registerItem(itemBetterCraftingTableUpgradeIron, "itemBetterCraftingTableUpgradeIron");
+        GameRegistry.registerItem(itemBetterCraftingTableUpgradeGold, "itemBetterCraftingTableUpgradeGold");
+        GameRegistry.registerItem(itemBetterCraftingTableUpgradeDiamond, "itemBetterCraftingTableUpgradeDiamond");
+        GameRegistry.registerItem(itemBetterCraftingTableUpgradeObsidian, "itemBetterCraftingTableUpgradeObsidian");
+        GameRegistry.registerItem(itemBetterCraftingTableUpgradeEndStone, "itemBetterCraftingTableUpgradeEndStone");
+        GameRegistry.registerItem(itemBetterCraftingTableUpgradeEmerald, "itemBetterCraftingTableUpgradeEmerald");
     }
 }

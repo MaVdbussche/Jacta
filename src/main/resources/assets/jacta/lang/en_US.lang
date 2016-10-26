@@ -1,2 +1,5 @@
-# Item localizations
-item.jacta:betterCraftingTableBase.name=Better Crafting Table
+#Items localizations
+item.jacta:itemBetterCraftingTableBase.name=Better Crafting Table (Item)
+
+#Blocks localizations
+tile.jacta:betterCraftingTableBase.name=Better Crafting Table (Block)

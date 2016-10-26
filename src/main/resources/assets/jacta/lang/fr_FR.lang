@@ -1,2 +1,5 @@
-# Item localizations
-item.jacta:betterCraftingTableBase.name=Table d'artisanat améliorée
+#Items localizations
+item.jacta:itemBetterCraftingTableBase.name=Atelier d'artisanat amélioré (Item)
+
+#Blocks localizations
+tile.jacta:betterCraftingTableBase.name=Atelier d'artisanat amélioré (Block)

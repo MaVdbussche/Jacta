@@ -21,13 +21,13 @@ public class ItemJacta extends Item
     public String getUnlocalizedName()
     {
         return String.format("item.%s%s", Reference.MOD_ID.toLowerCase()+":", getUnwrappedUnlocalizedName(super.getUnlocalizedName()));
-        //Returns "item.jacta:betterCraftingTable.name" for example
+        //Returns "item.jacta:itemBetterCraftingTable.name" for example
     }
     @Override
     public String getUnlocalizedName(ItemStack itemStack)
     {
         return String.format("item.%s%s", Reference.MOD_ID.toLowerCase()+":", getUnwrappedUnlocalizedName(super.getUnlocalizedName()));
-        //Returns "item.jacta:betterCraftingTable.name" for example
+        //Returns "item.jacta:itemBetterCraftingTableBase.name" for example
     }
 
     protected String getUnwrappedUnlocalizedName (String unlocalizedName){

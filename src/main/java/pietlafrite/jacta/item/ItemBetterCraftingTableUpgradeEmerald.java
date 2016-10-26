@@ -5,6 +5,6 @@ public class ItemBetterCraftingTableUpgradeEmerald extends ItemJacta
     public ItemBetterCraftingTableUpgradeEmerald()  //Constructor
     {
         super();
-        this.setUnlocalizedName("betterCraftingTableUpgradeEmerald");
+        this.setUnlocalizedName("itemBetterCraftingTableUpgradeEmerald");
     }
 }

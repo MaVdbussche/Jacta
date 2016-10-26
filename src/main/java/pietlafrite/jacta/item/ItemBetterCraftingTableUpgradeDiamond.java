@@ -5,6 +5,6 @@ public class ItemBetterCraftingTableUpgradeDiamond extends ItemJacta
     public ItemBetterCraftingTableUpgradeDiamond()  //Constructor
     {
         super();
-        this.setUnlocalizedName("betterCraftingTableUpgradeDiamond");
+        this.setUnlocalizedName("itemBetterCraftingTableUpgradeDiamond");
     }
 }

@@ -5,6 +5,6 @@ public class ItemBetterCraftingTableUpgradeIron extends ItemJacta
     public ItemBetterCraftingTableUpgradeIron()  //Constructor
     {
         super();
-        this.setUnlocalizedName("betterCraftingTableUpgradeIron");
+        this.setUnlocalizedName("itemBetterCraftingTableUpgradeIron");
     }
 }
